@@ -9,7 +9,7 @@
 title: WP
 brief-intro: Software Developer
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://giantpanpan.github.io/" # the base hostname & protocol for your site
+url: "https://giantpanpan.github.io" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
