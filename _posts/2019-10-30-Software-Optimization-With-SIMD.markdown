@@ -2,8 +2,8 @@
 layout: post
 title:  "Software Optimization - SIMD"
 date:   2019-10-30 16:20:00
-categories: software_optimization
-tags: SIMD gcc optimization architecture
+categories: SoftwareOptimization
+tags: SIMD gcc Optimization Architecture
 excerpt: SIMD vectorization
 mathjax: true
 ---
