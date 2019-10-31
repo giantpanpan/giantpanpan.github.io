@@ -5,7 +5,6 @@ date:   2019-10-30 13:48:54
 categories: HelloWorld
 tags: Theme
 excerpt: Initial Blog
-mathjax: true
 ---
 
 Thank you for visting my blog! 

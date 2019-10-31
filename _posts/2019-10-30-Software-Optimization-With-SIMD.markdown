@@ -4,7 +4,6 @@ title:  "Software Optimization - SIMD"
 date:   2019-10-30 16:20:00
 categories: SoftwareOptimization
 tags: SIMD gcc Optimization Architecture
-mathjax: true
 ---
 * content
 {:toc}
