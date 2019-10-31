@@ -50,7 +50,8 @@ Aarch64 vector usage - vn.s:
 - n -> register number
 - s -> shape of the lanes
 
-v0.16b means vector registor use 16 lanes of 8 bits(1 byte) each.
+v0.16b means vector registor 0 use 16 lanes of 8 bits(1 byte) each.
+
 v8.4s means registor 8 use 4 lanes of 32 bits (single-word) each
 
 Execution:
@@ -85,4 +86,4 @@ It is architecure-dependent. We need to use C code like following to check the a
 #endif
 ```
 
-Too see examples about these three methods, please go to next blog: <a href="../Software-Optimization-With-SIMD-Practice">Software-Optimization-With-SIMD-Practice</a>
+To see examples about these methods, please go to next blog: <a href="../Software-Optimization-With-SIMD-Practice-GCC-Compiler-Option">2019-10-30-Software-Optimization-With-SIMD-Practice-GCC-Compiler-Option</a>
