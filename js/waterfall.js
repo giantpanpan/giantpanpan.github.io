@@ -19,7 +19,7 @@
       code_link: 'https://codepen.io/haoyang/pen/jrvrQq',
       title: 'Fisher-Yates Shuffle Algorithm Animation',
       core_tech: 'JavaScript',
-      description: 'Fisher-Yates Shuffle Algorithm. For details please view <a href ="https://gaohaoyang.github.io/2016/10/16/shuffle-algorithm/">这里</a>。'
+      description: 'Fisher-Yates Shuffle Algorithm. For details please view <a href ="https://gaohaoyang.github.io/2016/10/16/shuffle-algorithm/">Here</a>。'
     }
   ];
 

@@ -3,8 +3,8 @@ layout: post
 title:  "Software Optimization - SIMD"
 date:   2019-10-30 16:20:00
 categories: software_optimization
-tags: SIMD
-excerpt: Use 3 SIMD vectorization methods to optimize the software
+tags: SIMD gcc optimization architecture
+excerpt: SIMD vectorization
 mathjax: true
 ---
 
@@ -69,9 +69,10 @@ gcc with <strong>-O3</strong> (max optimization level) will turn on <strong>-ftr
 - memory layout meet SIMD allignment 
 - vectorization must not affect the result of regular loop execution
 - the benefit of using vectorization is begger than its cost. If the loop is very small, there is no need to set up vectorization.
-2. Inline Assembler
+2. C Intrinsics:
+C language function-like extensions. Link to outside SIMD instructions.
+3. Inline Assembler
 It is architecure-dependent. We need to use C code like following to check the arch first then do the specific vectorization:
-
 
 ```cpp
 #if __x86_64__
@@ -83,6 +84,4 @@ It is architecure-dependent. We need to use C code like following to check the a
 #endif
 ```
 
-3. C Intrinsics:
-C language function-like extensions. Link to outside SIMD instructions.
-
+Too see examples about these three methods, please go to next blog: <a href="../Software-Optimization-With-SIMD-Practice">Software-Optimization-With-SIMD-Practice</a>
