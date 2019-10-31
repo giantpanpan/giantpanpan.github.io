@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Software Optimization - SIMD Practice"
-date:   2019-10-30 16:20:00
+date:   2019-10-30 23:32:00
 categories: software_optimization
 tags: SIMD gcc optimization architecture
 excerpt: Use 3 SIMD vectorization methods to optimize the software
