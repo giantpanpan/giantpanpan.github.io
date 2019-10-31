@@ -4,7 +4,7 @@ title:  "Software Optimization - SIMD"
 date:   2019-10-30 16:20:00
 categories: software_optimization
 tags: SIMD
-excerpt: Use 
+excerpt: Use 3 SIMD vectorization methods to optimize the software
 mathjax: true
 ---
 
@@ -85,3 +85,4 @@ It is architecure-dependent. We need to use C code like following to check the a
 
 3. C Intrinsics:
 C language function-like extensions. Link to outside SIMD instructions.
+
