@@ -4,7 +4,6 @@ title:  "Software Optimization - SIMD Practice (gcc compiler option)"
 date:   2019-10-30 23:32:00
 categories: SoftwareOptimization
 tags: SIMD gcc Optimization Architecture
-mathjax: true
 ---
 
 As we discussed in previous blog <a href="../Software-Optimization-With-SIMD">Software-Optimization-With-SIMD.</a>
