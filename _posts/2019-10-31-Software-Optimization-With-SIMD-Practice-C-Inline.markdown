@@ -22,10 +22,6 @@ It has 4 parameters:
 - Input operands (optional)
 - Clobbers(overwrite) (optional)
 
-
-
-
-
 ## Example:
 ```c++
 int main() {
@@ -47,6 +43,10 @@ We can use:
     __asm__("udiv %0, %1, %2" : "=r"(c) : "r"(b), "r"(a) );                //c = b/a = 6
     __asm__("msub %0, %1, %2, %3" : "=r"(c) : "r"(c), "r"(a), "r"(b)  );   //c = 19-(6*3) = 1 
 ```
+
+
+
+
 
 This is the quick start of [Arch64 assembly language](https://wiki.cdot.senecacollege.ca/wiki/Aarch64_Register_and_Instruction_Quick_Start) and [C Inline Assembly Instruction](https://gcc.gnu.org/onlinedocs/gcc-4.8.2/gcc/Extended-Asm.html)
 
