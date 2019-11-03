@@ -9,7 +9,10 @@ tags: SIMD gcc Optimization Architecture C AArch64 Assemly-Language
 {:toc}
 
 ## SIMD C Intrinstics
-C Intrinsics are function-like extensions to the C language. Although they look like functions, they are compiled inline. Because C Intrinstics are not provided by C language itself, its function is not portable. We need to be very careful if we want to use it. 
+C Intrinsics are function-like extensions to the C language. Although they look like functions, they are compiled inline. Because C Intrinstics are not provided by C language itself, its function is not portable. We need to be very careful if we want to use it.
+
+
+
 
 The source code for Intrinstic version:
 ```c++

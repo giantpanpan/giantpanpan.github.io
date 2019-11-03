@@ -10,6 +10,12 @@ tags: SIMD gcc Optimization Architecture
 
 As we discussed in previous blog <a href="../Software-Optimization-With-SIMD">Software-Optimization-With-SIMD.</a>
 We are going to use three methods to see the performance of SIMD vectorization.
+1. gcc compiler option:
+2. C Inline
+3. C Intrinstics
+
+
+
 
 ## gcc compiler option:
 

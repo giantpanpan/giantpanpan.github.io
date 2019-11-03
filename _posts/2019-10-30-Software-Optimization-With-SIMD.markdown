@@ -12,6 +12,9 @@ tags: SIMD gcc Optimization Architecture
 
 When we need to execute a long loop, under certain conditions, we are able to use the SIMD to  vectorize the loop into lanes. Then execute the lanes with same instruction in parallel, to make the execution more efficient. 
 
+
+
+
 For example:
 
 ```c++
