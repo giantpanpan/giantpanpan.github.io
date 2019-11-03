@@ -6,6 +6,8 @@ categories: HelloWorld
 tags: Theme
 excerpt: Initial Blog
 ---
+* content
+{:toc}
 
 Thank you for visting my blog! 
 

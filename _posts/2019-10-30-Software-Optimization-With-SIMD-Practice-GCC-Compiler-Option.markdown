@@ -5,6 +5,8 @@ date:   2019-10-30 23:32:00
 categories: SoftwareOptimization
 tags: SIMD gcc Optimization Architecture
 ---
+* content
+{:toc}
 
 As we discussed in previous blog <a href="../Software-Optimization-With-SIMD">Software-Optimization-With-SIMD.</a>
 We are going to use three methods to see the performance of SIMD vectorization.
