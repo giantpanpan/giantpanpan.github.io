@@ -83,7 +83,7 @@ In order to optimize the loop3, we can make this loop vectorized by move the rem
 for (x = 0; x < SAMPLES; x++) {
     ttl = ttl+data[x];
 }
-
+ttl = ttl%1000
 Result :vol1.c:38:2: note: LOOP VECTORIZED.
 ```
 

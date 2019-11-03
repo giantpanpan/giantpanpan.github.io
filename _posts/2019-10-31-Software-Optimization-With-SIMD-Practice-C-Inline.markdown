@@ -86,7 +86,7 @@ int main() {
 
 	// set vol_int to fixed-point representation of 0.75
 	// Q: should we use 32767 or 32768 in next line? why?
-    // A: 32767, because its range is from -32768 to +32767
+    // A: 32768, because the range of 16 bits int is from -32768 to 32767
 	vol_int = (int16_t) (0.75 * 32767.0);
 
 	printf("Scaling samples.\n");
@@ -140,3 +140,29 @@ int main() {
 
 }
 ```
+
+## Result
+The result of gcc compiler is 
+```bash
+$ time ./vol1
+Result: -906
+
+real	0m0.477s
+user	0m0.446s
+sys	0m0.030s
+```
+
+C inline is
+```bash
+$ time ./vol_inline
+Generating sample data.
+Scaling samples.
+Summing samples.
+Result: 930
+
+real	0m0.520s
+user	0m0.499s
+sys	0m0.020s
+```
+
+We can see that the User time of gcc compiler is faster than C inline, but situation for sys time is opposite.
