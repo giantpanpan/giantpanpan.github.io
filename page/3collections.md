@@ -34,6 +34,7 @@ type: page
 ## Other blogs
 
 - [COLORFUL xiaoa](http://www.xiaoa.name/)
+- [曹文龙] (https://deepindeed.cn/)
 
 
 ## Comments
