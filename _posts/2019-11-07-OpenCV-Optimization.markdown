@@ -9,7 +9,7 @@ tags: OpenCV
 {:toc}
 
 ## OpenCV Optimization - Stage 1
-![]("https://giantpanpan.github.io/img/opencv.png")
+<p><img src="https://giantpanpan.github.io/img/opencv.png" alt="OpenCV"/></p>
 
 After some experience of previous software optimization practices, I decide to play with to a very popular computer vision library - [OpenCV](https://github.com/opencv/opencv) to see whether the optimization skills I learned before can make a little bit improvement to a real-world project. 
 
