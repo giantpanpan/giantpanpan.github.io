@@ -23,7 +23,7 @@ The virtual memory is a logical memory (software based, not physical) and compri
 Translation table is used to control the mapping of virtual and actual addresses in physical memory. When a software is trying to access a page, and the page table will show the program where the page is directing to in the RAM. Then, then software can access the data in the corresponding address in RAM. 
 
 
-### <strong>Three Advantage of Modern Memory Scheme:</strong>
+### <strong>Advantages of Modern Memory Scheme:</strong>
 
 1. #### <strong>Paging/Swapping</strong>
 - If the user program need more memory that exceeds page1 and need to access page2, but the translation table has no entry for page2. In this case, CPU will throw an exception, transform the control from the user program to kernel. The kernel will search in the physical memory, figure that page2 is not in use right now, then assign it to the translation table and hook it to the user program.
@@ -35,7 +35,7 @@ Translation table is used to control the mapping of virtual and actual addresses
 - they cannot see the data stored in the physical memory that is not on their table.
 - there are two ways to approach it. one is using only one page table, but each program is allocated into different portition. Another way is each program their own page table.
 
-3. #### <strong>Deman Loading</strong>
+3. #### <strong>Demand Loading</strong>
 - Load couple pages for large program, but only for required features, not need for loading whole software. 
 - e.g. if we only need to use a printf function in this program, we just need to call the page that contains printf and ignore the others
 
