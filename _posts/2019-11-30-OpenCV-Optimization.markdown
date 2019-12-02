@@ -244,5 +244,6 @@ Percent│
  27.14 │    ← ret
 
 ```
-The difference between ceil, floor and lrinf is that the lrint will convert the float to integer inside of __lrint (the main body of lrint), but the this process will be excuted inside of ceil and floor functions. So, in total, the performance of these three functions should be very similar.
+The difference between ceil, floor and lrinf is that the lrint will convert the float to integer (```fcvtzs```) inside of __lrint (the main body of lrint), but the this process will be excuted inside of ceil and floor functions. So, in total, the performance of these three functions should be very similar.
 
+<strong>To be continue</strong>
