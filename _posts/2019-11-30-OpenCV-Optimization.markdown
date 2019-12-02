@@ -14,6 +14,10 @@ tags: OpenCV
 
 In this blog, I will continue to work with openCV fast-math functions optimization. You can look at the source code of  [OpenCV](https://github.com/opencv/opencv) here. 
 
+
+
+
+
 ### <strong>Optimization Opportunities</strong>
 
 <strong>Fisrt of all, let's have a breif review about what I did in openCV optimization stage I.</strong>
