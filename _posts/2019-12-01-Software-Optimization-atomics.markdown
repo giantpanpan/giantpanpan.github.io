@@ -13,6 +13,10 @@ tags: GNUC
 1. portable software - cross-platform software, which can be transport from platfrom to platform 
 2. port software - software adopt to one platform
 
+
+
+
+
 <strong>There are four dimensions determining software portability</strong>
 1. Hardware
 2. Language

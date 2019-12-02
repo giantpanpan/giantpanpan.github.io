@@ -12,6 +12,9 @@ tags: GNUC
 Benchmarking is an important tool we use to access the relative performance of a software or specific component of a software, normally by running a number of standard tests and trials against it. 
 
 
+
+
+
 ### <strong>Issues we need to notice for benchmarking</strong>
 1. Repeatability
     - ability to produce same results reliably (same data, multiple runs)

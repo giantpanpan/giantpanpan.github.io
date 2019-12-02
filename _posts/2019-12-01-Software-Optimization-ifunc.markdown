@@ -12,6 +12,10 @@ tags: GNUC
 <strong>ifunc</strong> is a special feature provided by GNUC which can help you to optimize your function call. 
 It allows to create multiple implementations of one function. A best implementation can be selected during runtime for particular procesor.
 
+
+
+
+
 ### <strong>ifunc Limintation</strong>
 It is limited to to standard C language. It also need all code to be one compiliation. So if you plan to write a software which requires multiple. It also requires all code to be one compiliation. 
 
