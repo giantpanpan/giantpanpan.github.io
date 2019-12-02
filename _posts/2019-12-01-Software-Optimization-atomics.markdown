@@ -17,6 +17,7 @@ tags: GNUC
 
 
 
+
 <strong>There are four dimensions determining software portability</strong>
 1. Hardware
 2. Language
@@ -24,7 +25,7 @@ tags: GNUC
 4. Operatio  System / Interfaces
 
 For example LP64 and ILP32 are two different C Language Data Type Models. 
-If we define  ```size_t a; ``` in ILP32, its size will be 32 bits. But if we define it in LP64, it will be 64 bits. 
+If we define <br> ```size_t a; ``` in ILP32, its size will be 32 bits. But if we define it in LP64, it will be 64 bits. 
 
 As a result, if we want to develop a portable software accross platforms, we have to think about how to overcome these variations.
 
