@@ -1,6 +1,6 @@
 <header id="top">
     <div class="wrapper">
-        <a href="{{ site.baseurl }}/" class="brand">{{ site.title }}</a>
+        <a href="{{ site.baseurl }}/" class="brand" style="color:rgb(20, 20, 20); font-size: 20px; font-weight:bold; font-family: Roboto";>{{ site.title }}</a>
         <small>{{site.brief-intro}}</small>
         <button id="headerMenu" class="menu"><i class="fa fa-bars"></i></button>
         <nav id="headerNav">
@@ -9,7 +9,7 @@
                     {% if page.url == '/' %}
                     <a class="active" href="{{site.baseurl}}/">
                         {% else %}
-                    <a href="{{site.baseurl}}/">
+                    <a href="{{site.baseurl}}/">    
                     {% endif %}
                         <i class="fa fa-home"></i>Home
                     </a>

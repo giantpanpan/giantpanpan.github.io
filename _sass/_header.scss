@@ -1,15 +1,15 @@
 header {
-    background: #222;
+    background: rgb(255, 255, 255);
     height: 52px;
-    color: #9d9d9d;
-    box-shadow: 0 2px 4px 1px rgba(0,0,0,0.5);
-    margin-bottom: 20px;
+    color: #110d0d;
+    box-shadow: 0 2px 4px 1px rgba(211, 205, 205, 0.5);
+    margin-bottom: 50px;
     a {
-        color: #9d9d9d;
+        color: #949090;
         -webkit-transition: 0.2s ease;
         transition: 0.2s ease;
         &:hover {
-            color: #fff;
+            color: rgb(168, 158, 158);
         }
     }
     .wrapper {
@@ -41,17 +41,17 @@ header {
                     a {
                         display: inline-block;
                         padding: 0 10px;
-                        height: 52px;
+                        height: 52px;                     
                         &:hover {
-                            background-color: #000;
-                        }
+                            color: rgb(27, 27, 27);
+                        } 
                         i {
                             margin-right: 5px;
                         }
                     }
                     >.active {
-                        color: #fff;
-                        background-color: #000;
+                        color:  #110d0d;
+                        //background-color: #000;
                         box-shadow: 0 25px 25px -15px rgba(255,255,255,0.93);
                     }
                 }
