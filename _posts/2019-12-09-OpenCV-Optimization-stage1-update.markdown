@@ -14,10 +14,15 @@ tags: OpenCV
 
 After discuss with my instructor, I realized that my OpenCV optimization stage I is not sufficient. 
 There are the lisk of tasks I need to add for stage I:
-- Test Host - Specify: which test hosts I used for benchmaking. Multiple hosts should be used.
+- Test Host - Specify: which test host I will use for benchmaking.
 - Test Plan - Safety: What is the result of the test. Is it always returning same&correct result?
 - Test Plan - Performance: Display the  detailed performance of the test.
+- Optimization Plan: Explan why and how I am going to optimize target functions.
 - Other Architecture: What is the preformance of the test in other platform 
+
+
+
+
 
 ## <strong>Build and Banchmark</strong>
 ### <strong>Test Host: </strong>
