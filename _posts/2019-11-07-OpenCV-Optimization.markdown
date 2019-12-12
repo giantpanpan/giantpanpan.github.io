@@ -77,6 +77,7 @@ After this structure is set up, we can start to build OpenCV with following comm
 $ cd build
 $ cmake CMAKE_INSTALL_PREFIX=../install -S ../opencv/ -B .
 $ make -j8
+$ export PATH=$PATH:/home/wpan17/project/build   //need to export the built opencv to search path 
 ```
 
 Sometimes you might miss some required packages, make tool will complain about it and give you some hints. You can install the missing packages follow its error message. 
