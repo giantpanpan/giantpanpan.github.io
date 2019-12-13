@@ -23,6 +23,7 @@ There are the list of tasks I need to add for stage I:
 
 
 
+
 ## <strong>Perform Optimization Plan on Aarchie</strong>
 After read the source code of fast_math.cpp, I realized that the OpenCV developers call ```lrint(value)``` function inside of the body of ```cvRound()```, but use regular way to perform ```cvCeil()``` and ```cvFloor()``` on Archie
 
