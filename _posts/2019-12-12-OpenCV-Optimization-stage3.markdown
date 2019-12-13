@@ -16,6 +16,11 @@ Hi everyone, thank you for reading my blog! This is the final stage of my OpenCV
 -    Push the optimization to the upstream
 -    Conclusion and Review of this project
 
+
+
+
+
+
 ## <strong>Push To Upstream</strong>
 This link is the [OpenCV contribution instruction](https://github.com/opencv/opencv/wiki/How_to_contribute), it will give you step-by-step guide about how to contribute to opencv. 
 
