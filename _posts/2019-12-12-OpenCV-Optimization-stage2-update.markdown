@@ -12,7 +12,7 @@ tags: OpenCV
 
 <p><img src="https://giantpanpan.github.io/img/opencv.png" alt="OpenCV"/></p>
 
-There are the list of tasks I need to add for stage I:
+There are the list of tasks I need to add for stage II:
 - Perform: Details about the processes of performing optimiation plan
 - Safety Test: Will the optimized functions pass the safety test?
 - Performace Test: Compare the performance of target functions before and after optimization
