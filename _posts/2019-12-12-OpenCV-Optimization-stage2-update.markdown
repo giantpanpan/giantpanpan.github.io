@@ -18,6 +18,11 @@ There are the list of tasks I need to add for stage I:
 - Performace Test: Compare the performance of target functions before and after optimization
 - Other Architecture: What is the preformance of the target functions in other platform?
 
+
+
+
+
+
 ## <strong>Perform Optimization Plan on Aarchie</strong>
 After read the source code of fast_math.cpp, I realized that the OpenCV developers call ```lrint(value)``` function inside of the body of ```cvRound()```, but use regular way to perform ```cvCeil()``` and ```cvFloor()``` on Archie
 
