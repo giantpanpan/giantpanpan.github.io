@@ -13,7 +13,7 @@ tags: OpenCV
 <p><img src="https://giantpanpan.github.io/img/opencv.png" alt="OpenCV"/></p>
 
 After discuss with my instructor, I realized that my OpenCV optimization stage I is not sufficient. 
-There are the lisk of tasks I need to add for stage I:
+There are the list of tasks I need to add for stage I:
 - Test Host - Specify: which test host I will use for benchmaking.
 - Test Plan - Safety: What is the result of the test. Is it always returning same&correct result?
 - Test Plan - Performance: Display the  detailed performance of the test.
@@ -27,7 +27,7 @@ There are the lisk of tasks I need to add for stage I:
 
 ## <strong>Build and Banchmark</strong>
 ### <strong>Test Host: </strong>
-The host for initial test is <strong>```Aarch64```</strong> with following features:
+The host for initial test is <strong>```Aarch64```</strong> named <strong>Archie</strong> with following features:
 
 ```
 [wpan17@aarchie ~]$ lscpu
