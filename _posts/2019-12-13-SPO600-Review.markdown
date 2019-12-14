@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "SPO600 Overview"
+date:   2019-12-13 20:04:00
+categories: SoftwareOptimization
+tags: OpenCV
+---
+* content
+{:toc}
+
+Overall, SPO600 is one of the most useful and challenging course I ever take so far. The skills and knowledge it gives me is very practical and close to industry. The most important thing I learned is the methodology of software optimization, by deeply looking into real-world open source project. I believe it will be a very handy skill for my future career as a developer. 
+
+Software Optimization is a broad and complicated topic because it involves so many things, such as computer architecture, low-level/machine language, compiler and so on. There is a long way to go if people really want to be good at it. SPO600 is a great start to enter this topic and I will continue to use the skills and knowledge I learned from this course to optimize software in industry and open source platform. 
+
+Thank you Professor!
